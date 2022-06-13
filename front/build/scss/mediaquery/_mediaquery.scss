@@ -1,0 +1,875 @@
+// Pantallas grandes
+
+@media(min-width:992px){
+    
+    // Home 2
+
+    #contenedor-divs{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #contenedor-divs > div{
+        margin: 20px;
+        height: fit-content;
+        padding: 40px;
+        margin-bottom: 70px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1400px){
+
+    // Wellness
+
+    #container-wellness{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #texto-wellness{
+        min-width: 100%;
+    }
+
+    #texto-wellness3, #texto-wellness4{
+        min-width: 100%;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    #container-wellness3, #container-wellness4{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #container-wellness5{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    // Kitchen
+
+    #container-kitchen{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #texto-kitchen{
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    #plates > tr > td{
+        display: flex;
+        flex-direction: column;
+    }
+
+    // Where
+
+    #map{
+        max-width: 460px;
+        max-height: 320px;
+    }
+
+    // More
+
+    #more{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #more-1{
+        padding: 20px;
+        min-width: 80%;
+        text-align: center;
+        height: fit-content;
+    }
+    
+    #more-2{
+        padding: 20px;
+        min-width: 80%;
+        text-align: center;
+        height: fit-content;
+    }
+    
+    #more-3{
+        padding: 20px;
+        height: fit-content;
+        min-width: 80%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    // Payment
+
+    #payment{
+        min-width: 50%;
+        height: fit-content;
+        padding: 20px;
+    }
+
+    #container-payment-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #information-payment{
+        min-width: 40%;
+        text-align: center;
+    }
+
+}
+
+// Pantallas medianas
+
+    @media(max-width:992px){
+
+        // Cabecera
+
+        #header{
+            justify-content: space-around;
+            padding: 15px;
+            display: flex;
+        }
+
+        #header > img{
+            width: 40%;
+        }
+
+        #telefono, #social{
+            display: flex;
+            align-items: center;
+        }
+
+        #menu > ul{
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #menu > ul > li{
+            border-right: none;
+            border-bottom: 2px solid color(primary);
+        }
+
+        #hotel{
+            border-left: none;
+        }
+
+        // Pie
+
+        footer{
+            height: fit-content;
+            padding-bottom: 20px;
+        }
+
+        #pie{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #info-pie{
+            width: 80%;
+            margin: 15px;
+        }
+
+        #img-pie > img{
+            width: 70%;
+            margin: 20px;
+        }
+
+        // Home
+
+        #home{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: fit-content;
+        }
+
+        // Home 2
+
+        #contenedor-divs{
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #contenedor-divs > div{
+            margin: 30px;
+            height: fit-content;
+            padding: 40px;
+            margin-bottom: 70px;
+        }
+
+        // Rooms 
+
+        #container-gallery{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        #gallery > img{
+            max-width: 320px;
+            max-height: 220px;
+        }
+
+        #texto-gallery{
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 8%;
+            margin-bottom: 8%;
+        }
+
+        // Wellness
+
+        #container-wellness{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #container-wellness3, #container-wellness4{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #container-wellness5{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #texto-wellness{
+            min-width: 100%;
+        }
+        
+        #texto-wellness2{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #texto-wellness3, #texto-wellness4{
+            padding-right: 30px;
+            min-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        #gallery-wellness > img{
+            max-width: 320px;
+            max-height: 220px;
+        }
+        
+        #gallery-cosmetic > img{
+            max-width: 320px;
+            max-height: 200px;
+        }
+
+        #treatment-1 > img, #treatment-2 > img{
+            max-width: 320px;
+            max-height: 180px;
+        }
+
+        // Kitchen
+
+        #kitchen-area{
+            min-width: 70%;
+            height: fit-content;
+            padding: 20px;
+            margin: 40px;
+        }
+
+        #kitchen-area1{
+            min-width: 70%;
+            height: fit-content;
+            padding: 20px;
+            margin: 40px;
+        }
+
+        #container-kitchen{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #texto-kitchen{
+            min-width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        #plates > tr > td{
+            display: flex;
+            flex-direction: column;
+        }
+
+        #gallery-kitchen > img{
+            max-width: 400px;
+            max-height: 260px;
+        }
+
+        // Where
+
+        #map{
+            max-width: 300px;
+            max-height: 160px;
+        }
+
+        // Rates
+
+        #rates{
+            display: flex;
+            flex-direction: column;
+            margin: 40px;
+            align-items: center;
+        }
+
+        #rates1, #rates2{
+            min-width: 90%;
+            height: fit-content;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        // More
+
+        #more{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #more-1{
+            padding: 20px;
+            min-width: 80%;
+            text-align: center;
+            height: fit-content;
+        }
+        
+        #more-2{
+            padding: 20px;
+            min-width: 80%;
+            text-align: center;
+            height: fit-content;
+        }
+        
+        #more-3{
+            padding: 20px;
+            height: fit-content;
+            min-width: 80%;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        // Cart
+
+        #container-cart-3{
+            display: flex;
+            padding: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #container-cart-2{
+            min-width: 85%;
+            height: fit-content;
+            margin-top: 60px;
+        }
+
+        #div-products > a > img{
+            max-width: 90px;
+            max-height: 90px;
+        }
+
+        #cart-options{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 90%;
+        }
+
+        // Payment
+
+        #payment{
+            min-width: 70%;
+            height: fit-content;
+            padding: 20px;
+        }
+
+        #container-payment-form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        #information-payment{
+            min-width: 40%;
+            text-align: center;
+        }
+
+        // Booking
+
+        #booking{
+            min-width: 75%;
+            height: fit-content;
+            padding: 20px;
+        }
+
+        #booking-rooms{
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            align-items: center;
+        }
+
+        #booking-information{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+    }
+
+
+// Pantallas pequeñas
+
+    @media(max-width:600px){
+
+        // Cabecera
+
+        #header{
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #header > img{
+            width: 60%;
+        }
+
+        #telefono, #social{
+            display: flex;
+            align-items: center;
+        }
+
+        #telefono{
+            margin-bottom: 20px;
+        }
+
+        #social{
+            margin-top: 20px;
+        }
+
+        #menu > ul{
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #menu > ul > li{
+            border-right: none;
+            border-bottom: 2px solid color(primary);
+        }
+
+        #hotel{
+            border-left: none;
+        }
+
+        // Pie
+
+        footer{
+            height: fit-content;
+            padding-bottom: 20px;
+        }
+
+        #pie{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #info-pie{
+            width: 70%;
+            margin: 15px;
+        }
+
+        #img-pie > img{
+            width: 60%;
+            margin: 20px;
+        }
+
+        // Home
+
+        #home{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: fit-content;
+        }
+
+        // Home 2
+
+        #contenedor-divs{
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #contenedor-divs > div{
+            margin: 20px;
+            height: fit-content;
+            padding: 40px;
+            margin-bottom: 70px;
+        }
+
+        // Home Book
+
+        #reserva{
+            max-width: 80%;
+            padding: 10px;
+            height: fit-content;
+            text-align: center;
+        }
+
+        // Rooms 
+
+        #our-rooms{
+            margin: 20px;
+            min-width: 80%;
+            height: fit-content;
+            padding: 10px;
+        }
+
+        #container-gallery{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        #gallery > img{
+            max-width: 260px;
+            max-height: 160px;
+        }
+
+        #texto-gallery{
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 8%;
+            margin-bottom: 8%;
+        }
+
+        // Wellness
+
+        #wellness-area{
+            min-width: 80%;
+            height: fit-content;
+            padding: 20px;
+            margin: 35px;
+        }
+
+        #wellness-area2{
+            min-width: 80%;
+            height: fit-content;
+            padding: 20px;
+            margin: 25px;
+        }
+
+        #wellness-area3, #wellness-area4, #wellness-area5{
+            min-width: 80%;
+            height: fit-content;
+            padding: 20px;
+            margin: 65px;
+        }
+
+        #container-wellness{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #container-wellness3, #container-wellness4{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #container-wellness5{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #texto-wellness{
+            min-width: 100%;
+        }
+        
+        #texto-wellness2{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #texto-wellness3, #texto-wellness4{
+            padding-right: 30px;
+            min-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        #gallery-wellness > img{
+            max-width: 260px;
+            max-height: 160px;
+        }
+        
+        #gallery-cosmetic > img{
+            max-width: 260px;
+            max-height: 160px;
+        }
+
+        #treatment-1 > img, #treatment-2 > img{
+            max-width: 220px;
+            max-height: 180px;
+        }
+
+        // Kitchen
+
+        #kitchen-area{
+            min-width: 80%;
+            height: fit-content;
+            padding: 20px;
+            margin: 40px;
+        }
+
+        #kitchen-area1{
+            min-width: 80%;
+            height: fit-content;
+            padding: 20px;
+            margin: 40px;
+        }
+
+        #container-kitchen{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #texto-kitchen{
+            min-width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        #plates > tr > td{
+            display: flex;
+            flex-direction: column;
+        }
+
+        #gallery-kitchen > img{
+            max-width: 260px;
+            max-height: 160px;
+        }
+
+        #gallery-kitchen1 > img{
+            max-width: 260px;
+            max-height: 160px;
+            margin-top: 20px;
+        }
+        
+        #gallery-kitchen2 > img{
+            max-width: 260px;
+            max-height: 160px;
+            margin-top: 20px;
+        }
+
+        // Where
+
+        #map{
+            max-width: 280px;
+            max-height: 160px;
+        }
+
+        #where{
+            text-align: center;
+            min-width: 80%;
+            height: fit-content;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 40px;
+        }
+
+        #where1{
+            min-width: 70%;
+            height: fit-content;
+            padding: 30px;
+            text-align: center;
+            margin: 40px;
+        }
+
+        // Rates
+
+        #rates{
+            display: flex;
+            flex-direction: column;
+            margin: 40px;
+            align-items: center;
+        }
+
+        #rates1, #rates2{
+            min-width: 90%;
+            height: fit-content;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        // More
+
+        #more{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #more-1{
+            padding: 20px;
+            min-width: 70%;
+            text-align: center;
+            height: fit-content;
+        }
+        
+        #more-2{
+            padding: 20px;
+            min-width: 70%;
+            text-align: center;
+            height: fit-content;
+        }
+        
+        #more-3{
+            padding: 20px;
+            height: fit-content;
+            min-width: 70%;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        // Cart
+
+        #container-cart-3{
+            display: flex;
+            padding: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #container-cart-2{
+            min-width: 88%;
+            height: fit-content;
+            margin-top: 60px;
+        }
+
+        #div-products > a > img{
+            max-width: 60px;
+            max-height: 60px;
+        }
+
+        #cart-options{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 90%;
+        }
+
+        // Payment
+
+        #container-payment{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 130vh;
+        }
+
+        #payment-form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        #payment{
+            min-width: 80%;
+            height: fit-content;
+            padding: 20px;
+        }
+
+        #container-payment-form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        #information-payment{
+            min-width: 80%;
+            text-align: center;
+        }
+
+        // Booking
+
+        #booking{
+            min-width: 78%;
+            height: fit-content;
+            padding: 20px;
+        }
+
+        #booking-rooms{
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            text-align: center;
+        }
+
+        #booking-information{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+    }

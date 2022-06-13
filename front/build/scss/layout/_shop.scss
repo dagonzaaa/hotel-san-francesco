@@ -1,0 +1,74 @@
+// Estilos para la página de la tienda
+
+#shop-container > h2{
+    text-align: center;
+    color: color(terciary);
+    padding-top: 20px;
+}
+
+#shop-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("../../assets/img/shop/shop1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#productos{
+    text-align: center;
+    margin: 20px;
+    background-color: color(primary-fondo);
+    @include border-radius(15px);
+    border: 3px solid color(primary);
+    transition-duration: 0.5s;
+}
+
+#productos:hover{
+    background-color: color(primary);
+}
+
+#productos > img{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+#productos > h3{
+    padding: 10px;
+    color: color(primary);
+    background-color: color(secondary);
+    @include border-radius(10px);
+}
+
+#productos > button{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: color(terciary);
+    color: color(primary);
+    padding: 5px;
+    font-family: font(font2);
+    font-size: size(sm);
+    cursor: pointer;
+}
+
+#cart-props{
+    display: flex;
+    justify-content: right;
+    margin-right: 45px;
+    margin-bottom: 5px;
+}
+
+#cart-length{
+    background-color: color(terciary);
+    @include border-radius(12px);
+    width: 20px;
+    height: fit-content;
+    text-align: center;
+    color: color(primary);
+}
+
+#price-product{
+    color: color(terciary);
+}

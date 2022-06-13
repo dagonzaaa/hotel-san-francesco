@@ -1,0 +1,93 @@
+// Estilos de la página Home
+
+#home{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    background-image: url("../../assets/img/home/home.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 40px solid color(primary-fondo);
+}
+
+#login, #registro{
+    background-color: color(secondary-fondo);
+    padding: 10px 30px 10px 30px;
+    width: fit-content;
+    height: fit-content;
+    margin: 70px;
+    text-align: center;
+    color: color(primary);
+    font-family: font(font1);
+    border: 3px solid color(primary-fondo);
+    transition-duration: 0.5s;
+}
+
+#login:hover, #registro:hover{
+    background-color: color(secondary);
+}
+
+#titulo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#container > *{
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+#container > input[type = submit]{
+    background-color: color(terciary);
+    width: 80px;
+    height: fit-content;
+    font-family: font(font2);
+    font-size: size(sm);
+    color: color(primary);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#container > input[type = submit]:hover{
+    background-color: color(primary);
+    color: color(terciary);
+}
+
+#home2{
+    background-image: url("../../assets/img/home/home2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#text{
+    padding-top: 30px;
+    text-align: center;
+    color: color(primary);
+}
+
+#contenedor-divs{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contenedor-divs > div{
+    width: 300px;
+    height: fit-content;
+    background-color: color(primary-fondo);
+    padding: 40px;
+    margin-bottom: 70px;
+    transition-duration: 0.5s;
+}
+
+#contenedor-divs > div:hover{
+    background-color: color(primary);
+}
+
+#err{
+    color: red;
+    font-weight: bold;
+}

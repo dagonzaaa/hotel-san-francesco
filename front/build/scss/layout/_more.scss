@@ -1,0 +1,71 @@
+// Estilos de la página de descripción de los productos
+
+#container-more{
+    background-image: url("../../assets/img/shop/shop1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: fit-content;
+}
+
+#more{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#more-1{
+    margin-top: 40px;
+    background-color: color(primary-fondo);
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    height: fit-content;
+    transition-duration: 0.5s;
+}
+
+#more-2{
+    margin-top: 40px;
+    background-color: color(primary-fondo);
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    height: fit-content;
+    transition-duration: 0.5s;
+    margin-bottom: 40px;
+}
+
+#more-3{
+    margin-top: 40px;
+    background-color: color(primary-fondo);
+    padding: 20px;
+    height: fit-content;
+    width: 25%;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+
+#more-1:hover{
+    background-color: color(primary);
+}
+
+#more-2:hover{
+    background-color: color(primary);
+}
+
+#more-3:hover{
+    background-color: color(primary);
+}
+
+#more-1 > h2, #more-1 > h3{
+    color: color(terciary);
+    margin: 15px;
+}
+
+#more-2 > h2, #more-2 > h3{
+    color: color(terciary);
+    margin: 15px;
+}
+
+#more-3 > h2, #more-3 > h3{
+    color: color(terciary);
+    margin: 15px;
+}
