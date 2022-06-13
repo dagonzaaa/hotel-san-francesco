@@ -1,0 +1,31 @@
+// Variables
+
+///Variable que contiene los colores principales
+///@group Color
+$colours: (
+    primary: white,
+    primary-fondo: rgba(255, 255, 255, 0.8),
+    secondary: #8f8983,
+    secondary-fondo: rgba(168, 159, 150, 0.7),
+    terciary: #065383,
+    cuaternary: #84a653);
+
+///Variable que contiene los nombres de las fuentes
+///@group Fonts
+$fonts: (
+    font1: "Open Sans",
+    font2: "AnaktoriaRegular"
+);
+
+/// Variable que contiene los tamaños de las fuentes
+///@group Font-sizes
+$font-sizes: (
+    xl: 2.0rem,
+    lg: 1.8rem,
+    md: 1.4rem,
+    sm: 1.125rem,
+    pie: 1.0rem,
+    social: 25px,
+    telefono: 18px,
+    arrow:25px
+);

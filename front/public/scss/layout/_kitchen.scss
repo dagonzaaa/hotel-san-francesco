@@ -1,0 +1,110 @@
+// Estilos de la página de cocina
+
+#kitchen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    background-image: url("../../assets/img/kitchen/kitchen1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 40px solid color(primary-fondo);
+}
+
+#kitchen1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    background-image: url("../../assets/img/kitchen/kitchen5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#kitchen-area{
+    background-color: color(primary-fondo);
+    width: 60%;
+    height: fit-content;
+    color: color(secondary);
+    font-family: font(font2);
+    transition-duration: 0.5s;
+    padding: 20px;
+    margin: 40px;
+}
+
+#kitchen-area1{
+    background-color: color(primary-fondo);
+    width: 50%;
+    height: fit-content;
+    color: color(secondary);
+    font-family: font(font2);
+    transition-duration: 0.5s;
+    padding: 20px;
+    margin: 40px;
+}
+
+#kitchen-area:hover, #kitchen-area1:hover{
+    background-color: color(primary);
+}
+
+#container-kitchen{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#container-kitchen1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#plates > tr > td > h3{
+    color: color(terciary);
+}
+
+#plates > tr > td > ul > li{
+    margin: 20px;
+}
+
+#titulo-kitchen > h2{
+    text-align: center;
+    color: color(cuaternary);
+}
+
+#texto-kitchen{
+    padding-right: 30px;
+    width: 30%;
+}
+
+#texto-kitchen > p{
+    text-align: justify;
+}
+
+#gallery-kitchen, #gallery-kitchen1, #gallery-kitchen2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gallery-kitchen > img{
+    width: 460px;
+    height: 320px;
+    border: 3px solid color(secondary-fondo);
+}
+
+#gallery-kitchen1 > img{
+    width: 280px;
+    height: 180px;
+    border: 3px solid color(secondary-fondo);
+    margin-top: 20px;
+}
+
+#gallery-kitchen2 > img{
+    width: 280px;
+    height: 180px;
+    border: 3px solid color(secondary-fondo);
+    margin-top: 20px;
+}
+
+
